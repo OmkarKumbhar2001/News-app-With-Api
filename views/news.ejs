@@ -1,0 +1,29 @@
+<%- include("Particepet/header") -%>
+    <div class="main-news-desription">
+        
+        <div>
+            <h1>
+                HEADLINES
+            </h1>
+        </div>
+
+        <div> 
+            <%articals.forEach(function(articals){%>
+                <div class="mainheading">
+                    <h2><%=articals.title%></h2>
+                </div>
+                <div class="readmore">
+                    <b><%=articals.description%></b>
+                </div>
+                <div class="mainImages">
+                    <img class="news_images" src="<%=articals.urlToImage%>" alt="No img">  
+                </div>
+                <div class="readmore">
+                    <b><%=articals.content%>..<a href="<%=articals.url%>">Read more</a></b>
+                </div>
+                <hr class="new5">
+          <% });%>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<%- include("Particepet/footer") -%>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
+    <!-- boootstrap -->
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f7c57d7aaa.js" crossorigin="anonymous"></script>
+    <title>Daily News</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid bg-light p-4">
+          <a class="navbar-brand " id="alllogo" href="/"><span id="mainnavbar">Daily</span>News</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Entertainment
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/news/actress&actor">Actor/Actress</a></li>
+                  <li><a class="dropdown-item" href="/news/cinema">Cinema</a></li>
+                  <li><a class="dropdown-item" href="/news/bollywood">Bollywood</a></li>
+                  <li><a class="dropdown-item" href="/news/hollywood">Hollywood</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sports
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/news/cricket">Cricket</a></li>
+                  <li><a class="dropdown-item" href="/news/football">Football</a></li>
+                  <li><a class="dropdown-item" href="/news/olympics">olympics</a></li>
+                  <li><a class="dropdown-item" href="/news/ipl">IPL</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Markrts
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/news/bitcoin">Bitcoin</a></li>
+                  <li><a class="dropdown-item" href="/news/stocks">Stocks</a></li>
+                  <li><a class="dropdown-item" href="/news/commodity">Commodity</a></li>
+                  <li><a class="dropdown-item" href="/news/currency">Currency</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Technology
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/news/auto">Auto</a></li>
+                  <li><a class="dropdown-item" href="/news/cars">Cars</a></li>
+                  <li><a class="dropdown-item" href="/news/mobile">Mobiles</a></li>
+                  <li><a class="dropdown-item" href="/news/socialmedia">Social Media</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex" action="/search" method="post">
+              <input class="form-control me-2" type="text" placeholder="Search" name="UserSearch" autocomplete="off">
+              <button class="btn btn-outline-success" type="submit" name="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
