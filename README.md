@@ -12,3 +12,5 @@ https://newsapi.org<br>
 5) And Paste Your Api Key to every http url link at /*//Your api goes here*/<br>
 6) Your News Web App is Ready
 <h2>Thank You</h2>
+Live Website<br>
+https://safe-oasis-46929.herokuapp.com/
