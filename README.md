@@ -9,7 +9,7 @@ https://newsapi.org<br>
 2) Click On get Api <br>
 3) Copy you api key<br>
 4) Open covid.js<br>
-5) And Paste Your Api Key to every http url link at /*//Your api goes here*/<br>
+5) And Paste Your Api Key to every http url link at /*yourapi*/<br>
 6) const url = ("https://newsapi.org/v2/top-headlines?country=in&apiKey= yourapi &sortBy=publishedAt")<br>
 7) <b>For Search</b></br>
 8) const url = ("https://newsapi.org/v2/everything?sortBy=publishedAt&language=en&q="+userSearchdata+"&apiKey=yourapi")<br>
