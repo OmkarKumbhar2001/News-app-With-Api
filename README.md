@@ -10,7 +10,12 @@ https://newsapi.org<br>
 3) Copy you api key<br>
 4) Open covid.js<br>
 5) And Paste Your Api Key to every http url link at /*//Your api goes here*/<br>
-6) Your News Web App is Ready
+6) const url = ("https://newsapi.org/v2/top-headlines?country=in&apiKey= yourapi &sortBy=publishedAt")<br>
+7) <b>For Search</b></br>
+8) const url = ("https://newsapi.org/v2/everything?sortBy=publishedAt&language=en&q="+userSearchdata+"&apiKey=yourapi")<br>
+9) <b>For Topics</b></br>
+10) const url = ("https://newsapi.org/v2/everything?sortBy=publishedAt&language=en&q="+userchosencategory+"&apiKey=yourapi")<br>
+12) Your News Web App is Ready
 <h2>Thank You</h2>
 Live Website<br>
 https://safe-oasis-46929.herokuapp.com/
